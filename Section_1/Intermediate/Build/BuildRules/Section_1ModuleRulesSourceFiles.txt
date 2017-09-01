@@ -1,0 +1,3 @@
+C:\Users\brian\source\repos\Unreal-Udemy\Section_1\Source\Section_1\Section_1.Build.cs
+C:\Users\brian\source\repos\Unreal-Udemy\Section_1\Source\Section_1.Target.cs
+C:\Users\brian\source\repos\Unreal-Udemy\Section_1\Source\Section_1Editor.Target.cs
