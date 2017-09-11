@@ -13,11 +13,7 @@ int main()
 
 	cout << "Enter your guess: ";
 	string Guess = "";
-	cin >> Guess;
-	cout << "\nYou guessed: " << Guess << endl;
-	
-	cout << "Enter your guess: ";
-	cin >> Guess;
+	getline(cin,Guess);
 	cout << "\nYou guessed: " << Guess << endl;
 
 	return 0;
