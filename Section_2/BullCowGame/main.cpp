@@ -9,10 +9,15 @@ string GetGuessAndPrintBack();
 
 int main()
 {
+	constexpr int NUMBER_OF_GUESSES = 5; 
+
 	PrintIntro();
-	GetGuessAndPrintBack();
-	GetGuessAndPrintBack();
-	cout << endl;
+
+	for (int i = 0; i < NUMBER_OF_GUESSES; i++)
+	{
+		GetGuessAndPrintBack();
+		cout << endl;
+	}
 	return 0;
 }
 
