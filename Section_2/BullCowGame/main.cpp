@@ -11,9 +11,14 @@ int main()
 	cout << "Can you guess the " << WORD_LENGTH << " letter isogram ";
 	cout << "I'm thinking of?\n";
 
-	cout << "Enter your guess: ";
 	string Guess = "";
+
+	cout << "Enter your guess: ";
 	getline(cin,Guess);
+	cout << "\nYou guessed: " << Guess << endl;
+
+	cout << "Enter your guess: ";
+	getline(cin, Guess);
 	cout << "\nYou guessed: " << Guess << endl;
 
 	return 0;
